@@ -73,6 +73,7 @@
         $(this).each(function (i, ele) {
             slide(ele, options)
         })
+        return this;
     }
 })(jQuery)
 //用jquery封装插件的几种写法：

@@ -10,7 +10,22 @@
 </head>
 
 <body>
-    <div id="box">
+    <div class="box">
+        <section class="slide-prev">前一张</section>
+        <section class="slide-next">下一张</section>
+        <!-- ul>(li>img[src='image/$.jpg' alt="轮播图片"])*7 -->
+        <ul>
+            <li><img src="images/1.jpg" alt="轮播图片"></li>
+            <li><img src="images/2.jpg" alt="轮播图片"></li>
+            <li><img src="images/3.jpg" alt="轮播图片"></li>
+            <li><img src="images/4.jpg" alt="轮播图片"></li>
+            <li><img src="images/5.jpg" alt="轮播图片"></li>
+            <li><img src="images/6.jpg" alt="轮播图片"></li>
+            <li><img src="images/7.jpg" alt="轮播图片"></li>
+        </ul>
+    </div>
+
+    <div class="box">
         <section class="slide-prev">前一张</section>
         <section class="slide-next">下一张</section>
         <!-- ul>(li>img[src='image/$.jpg' alt="轮播图片"])*7 -->
@@ -27,9 +42,11 @@
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/JQuery.ZYSlide.js"></script>
     <script>
-        $('#box').ZYSlide()
-    
-    
+        
+        $('.box').ZYSlide(1000)
+
+
     </script>
 </body>
+
 </html>

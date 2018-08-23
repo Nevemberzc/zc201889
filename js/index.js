@@ -63,3 +63,5 @@ $('#box section').add('#box li').hover(function () {
 }, function () {
     autoPlay();
 })
+
+//2.变量命名和方法命名： states,time,move,这些方法用户在使用插件的时候，可能还会引入自己创建的文件
